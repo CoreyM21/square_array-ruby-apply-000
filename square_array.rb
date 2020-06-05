@@ -1,7 +1,7 @@
-array = []
+nums = []
 
 def square_array(array)
-  array.each do |number|
+  array.each {|i|nums<<i**2}
   number
   end
 end
